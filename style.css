@@ -1,0 +1,56 @@
+#rs {
+    font-family: Arial;
+    color:white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.list{
+    font-size: 30px;
+    display:  inline;
+    color: rgb(222, 60, 60);
+    margin-right: 100px;
+    
+}
+
+.title{
+font-family: 'Times New Roman';
+color: rgba(68, 255, 0, 0.519);
+font-size: medium;
+text-align: center;
+}
+
+#image{
+    width: 500px;
+    height: 500px;
+    bottom: 50%;
+    
+}
+
+iframe{
+    width: 500px;
+    height: 500px;
+    margin-left: 200px;
+    
+}
+
+body{
+    background-image: url(./project/background.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#about{
+    font-family: arial;
+    color: white;
+}
+
+div>table{
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+}

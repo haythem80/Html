@@ -5,54 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Haythem</title>
     <link rel="icon" href="./project/images.jfif" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
     <header>
+      <h1 id="rs">create a website page</h1>
       <nav>
-        <ul class="list" id="list">
+        <ul class="list">
           <a name="top of the page"></a>
-          <li class="home">home</li>
+          <li class="list">home</li>
           <a href="#about">
-            <li class="about">about</li>
+            <li class="list">about</li>
           </a>
           <a href="#work">
-            <li class="work">work</li>
+            <li class="list">work</li>
           </a>
           <a href="#resume">
-            <li class="resume">resume</li>
+            <li class="list">resume</li>
           </a>
           <a href="#contact">
-            <li class="contact">contact</li>
+            <li class="list">contact</li>
           </a>
+          <label class="sea">search</label>
+          <input type="search" name="search" />
         </ul>
       </nav>
     </header>
     <main>
       <div class="title">
-        <h1>MY HTML CHECKPOINT</h1>
+        <h1>GO MY CODE IS THE BEST</h1>
       </div>
+      <iframe
+        width="853"
+        height="480"
+        src="https://www.youtube.com/embed/mInNxT1Tznc"
+        title="GoMyCode Game Night in Sfax"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+        frameborder="0"
+      >
+      </iframe>
       <section>
         <div id="about">
-          <h2>about</h2>
+          <h2>About</h2>
         </div>
-        <div>
-          <img
-            src="https://i.guim.co.uk/img/media/103481084a59b34837113daf27c04679caf743f3/240_0_3600_2160/master/3600.jpg?width=700&quality=85&auto=format&fit=max&s=01a8010712dc3991a0dfe77bb453b6c0"
-            alt="assasin"
-          />
-        </div>
-        <iframe
-          width="853"
-          height="480"
-          src="https://www.youtube.com/embed/mInNxT1Tznc"
-          title="GoMyCode Game Night in Sfax"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-          frameborder="0"
-        >
-        </iframe>
+        <img
+          id="image"
+          src="https://i.guim.co.uk/img/media/103481084a59b34837113daf27c04679caf743f3/240_0_3600_2160/master/3600.jpg?width=700&quality=85&auto=format&fit=max&s=01a8010712dc3991a0dfe77bb453b6c0"
+          alt="assasin"
+        />
         <br />
         <br />
         <div>
@@ -151,8 +154,6 @@
           <input type="submit" name="add" />
           <br />
           <br />
-          <label>search</label>
-          <input type="search" name="search" />
         </form>
         <br />
         <br />
@@ -165,8 +166,8 @@
       </section>
     </main>
     <footer>
-      <a href="#top of the page">
-      <p>end of the page</p>
+      <a href="#top of the page" id="end">
+        <p>end of the page</p>
       </a>
     </footer>
   </body>
